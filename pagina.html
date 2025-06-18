@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARFY</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .produto {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px;
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+        }
+        .produto img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>loja carfy</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Início</a></li>
+            <li><a href="pecas.html">Peças</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Produtos em Destaque</h2>
+        <div class="produto">
+            <img src="../imagens/filtrodeoleo.jpg" alt="Peça 1">
+            <h3>Filtro de óleo</h3>
+            <p>R$ 50,00</p>
+        </div>
+        <div class="produto">
+            <img src="../imagens/bateria.webp" alt="Peça 2">
+            <h3>Bateria 60Ah</h3>
+            <p>R$ 350,00</p>
+        </div>
+        <div class="produto">
+            <img src="../imagens/pneu aro 15.webp" alt="Peça 3">
+            <h3>Pneu Aro 15</h3>
+            <p>R$ 500,00</p>
+        </div>
+    </div>
+
+</body>
+</html>

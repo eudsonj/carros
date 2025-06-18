@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Motores Automotivos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .produto {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px;
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+        }
+        .produto img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Loja de Motores Automotivos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Início</a></li>
+            <li><a href="#">Motores</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Motores em Destaque</h2>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Motor 1">
+            <h3>Motor 1.6 Flex</h3>
+            <p>R$ 8.500,00</p>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Motor 2">
+            <h3>Motor V8 Turbo</h3>
+            <p>R$ 15.000,00</p>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Motor 3">
+            <h3>Motor Diesel 2.0</h3>
+            <p>R$ 12.000,00</p>
+        </div>
+    </div>
+
+</body>
+</html>
